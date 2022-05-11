@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <title>Fale Conosco</title>
+        <link rel="stylesheet" href="../assets/css/faleconosco.css">
     </head>
     <body>
-        <h5><a href = "../principal.html">Home</a></h5>
-        <h5><a href = "../Cardápio/cardapio.html">Cardápio</a></h5>
-        <h5><a href = "../Reserve sua mesa/reserva.html">Reserve sua mesa</a></h5>
-        <h5><a href = "../Fale conosco/faleconosco.html">Fale conosco</a></h5>
-
-        <h3>Nome*</h3>
-        <h3>E-mail*</h3>
-        <h3>Contato*</h3>
-        <h3>Mensagem*</h3>
-        <h5>Campos com * são obrigatórios</h5>
-
-        <h4><a href = "">Enviar</a></h4>
-
-        <h3>Telefone: (35) 0 0000-0000</h3>
-        <h3>E-mail: contato@pastasfrancesco.br</h3>
-        <h3>Endereço: </h3>
-
+        <section id="teste">
+  <div id="container">
+    <ul>
+      <li><a href = "../principal.html">Home</a></li>
+      <li><a href = "../Cardápio/cardapio.html">Cardápio</a></li>
+      <li><a href = "../Reserve sua mesa/reserva.html">Reserve sua mesa</a></li>
+      <li><a href = "../Fale conosco/faleconosco.html">Fale conosco</a></li>
+    </ul>
+    <div id="linha"></div>
+  </div>
+</section>
+        <div class="formulario">
+        <form class="form" action="">
+          <div class="form-item col-responsive">
+            <input class="input" type="text" name="nome" required="required" id="name"/>
+            <label class="label" for="nome">Nome</label>
+          </div>
+          <div class="form-item col-responsive">
+            <input class="input" type="text" name="email" required="required" id="email"/>
+            <label class="label" for="email">E-mail</label>
+          </div>
+          <div class="form-item">
+            <input class="input" type="text" name="assunto" required="required" id="assunto"/>
+            <label class="label" for="assunto">Assunto</label>
+          </div>
+          <div class="form-item">
+            <textarea class="textarea" name="Mensagem" required="required" id="textarea"></textarea>
+            <label class="label" for="Mensagem">Mensagem</label>
+          </div>
+          <div class="form-item">
+            <input class="botao" type="submit" value="Enviar"/>
+          </div>
+        </form>
+    </div>
+        <footer class="section rodapé contexto-dark bg-image">
+            <div class="col-md-4">
+              <h4>Contato</h4>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd>Colocar o Endereço</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Email:</dt>
+                <dd><a href="#">contato@pastasfrancesco.br
+</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Telefone:</dt>
+                <dd><a href="#">(35) 0 0000-0000</a>
+                </dd>
+              </dl>
+            </div>
+      </footer>
     </body>
 </html>
