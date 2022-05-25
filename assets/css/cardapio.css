@@ -34,3 +34,50 @@ body {
   section#teste #container ul li a {
     color: #f1f1f1;
   }
+
+.cardapio { 
+    width:100%; 
+    display:flex; 
+    flex-wrap:wrap; 
+}
+
+.cardapio .itemBox { 
+    position:relative; 
+    width:100%; 
+    height:auto; 
+    margin:5px; 
+    background-color:#fff; 
+    padding:0.8em;
+    border-radius:4px; 
+    overflow:hidden; 
+    display:grid; 
+}
+
+.cardapio .itemBox img { 
+    width:100%; 
+    margin-bottom:2px; 
+    float:left; 
+}
+
+.cardapio .itemBox h1 { 
+    color:#4297cb; 
+    font-size:1.5em; 
+    margin-bottom:5px; 
+    padding-bottom:5px; 
+    border-bottom:1px #f4f4f4 solid;
+    width:100%;
+    float:left;
+}
+
+.cardapio .itemBox p {
+    width:100%;
+    float:left;
+    margin-bottom:10px;
+    color:#444; 
+    font-size:1em; 
+}
+
+@media (min-width:48em){
+.cardapio .itemBox { width:30.6%; }
+}
+
