@@ -1,8 +1,6 @@
 /*cor dos links*/
-
-
 a {
-   color: #000;
+  color: #000;
 }
 
 /*Menu*/
@@ -10,7 +8,7 @@ body {
   margin: 0;
   font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;";
   background: #FFFFFF;
-  align: center;
+  align-items: center;
 }
 
 section#teste {
@@ -49,16 +47,24 @@ section#teste #container ul li a {
   color:#daa520;
   font-style: italic;
   float: center;
-
 }
+
+.titulo1 h2 {
+  padding-bottom: 20px;
+}
+
 .texto1 {
   text-align:center;
   color:rgb(99, 96, 96);
+  padding-bottom: 15px;
 }
-.rodapé {
+
+.rodape {
   background-color: #a0232b;
-  
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
 .textorodape{
   color: #FFFFFF;
   font-style: italic;
@@ -66,9 +72,10 @@ section#teste #container ul li a {
   border:0mm;
   text-align:center;
 }
-.imagem {
-    text-align: center;
-    
+
+.imagem img {
+  text-align: center;
+  max-width: 100%;
 }
 
 
