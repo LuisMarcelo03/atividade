@@ -1,0 +1,129 @@
+/*formulario*/
+input, textarea {
+    border: 0;
+    outline: 0;
+    font-size: 1.2em;
+    background: transparent;
+    color: #797979;
+    position: relative;
+    font-family: 'open_sansregular';
+  }
+  
+  textarea { 
+    resize: none; 
+  }
+  
+  .formulario {
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-item {
+    position: relative;
+    width: 100%;
+    padding: 1em;
+  }
+  
+  .form-item .textarea {
+    height: 5em;
+  }
+  
+  .form-item .input, .form-item .textarea {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    transition: all 0.3s;
+    border-bottom: 2px solid #daa520;
+  }
+  
+  .form-item .input:focus, .form-item .textarea:focus {
+    border-bottom: 2px solid #333333;
+  }
+  
+  .form-item .input:valid + .label, .form-item .input:focus + .label, .form-item .textarea:valid + .label, .form-item .textarea:focus + .label {
+    top: 1em;
+    left: 1em;
+    font-size: 0.9em;
+  }
+  
+  .form-item .input:valid, .form-item .textarea:valid {
+    border-bottom: 2px solid #daa520;
+  }
+  
+  .form-item .label {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    text-transform: capitalize;
+    transition: all 0.3s;
+  }
+  
+  .form-item .botao {
+    display: block;
+    width:120px;
+    padding: 0.8em 0.6em;
+    border:2px #daa520 solid;
+    border-radius:3px; 
+    color: #daa520;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .form-item .botao:hover {
+    background: #828282;
+    color: #ffffff;
+    border:2px #828282 solid;
+  }
+  
+  .form-item .botao:active {
+    background-color:#ff9000;
+    color:#ffffff;
+    border:2px #ff9000 solid; 
+  }
+  
+  /*Menu*/
+  body {
+    margin: 0;
+    font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;";
+    background: #eaeaea;
+  }
+  
+  section#teste {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section#teste #container ul {
+    display: flex;
+    background: #323639;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  section#teste #container ul li {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    margin-left: 60px;
+    font-style:italic;
+  }
+  
+  section#teste #container ul li:first-child {
+    margin-left: 0;
+  }
+  
+  section#teste #container ul li a {
+    color: #f1f1f1;
+  }
+
+ 
+ 
