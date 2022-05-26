@@ -54,9 +54,10 @@ body {
 }
 
 .cardapio .itemBox img { 
-    width:100%; 
-    margin-bottom:2px; 
-    float:left; 
+    width: 100%;
+    height: 16em;
+    margin-bottom: 2px; 
+    float: left; 
 }
 
 .cardapio .itemBox h1 { 
